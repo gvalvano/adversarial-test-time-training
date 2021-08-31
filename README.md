@@ -5,7 +5,7 @@ Code for the paper:
   
 > Valvano G., Leo A. and Tsaftaris S. A. (DART, 2021), *Stop Throwing Away Discriminators! Re-using Adversaries for Test-Time Training*.  
   
-The official project page is [here](https://github.com/vios-s/adversarial-test-time-training).  
+The official project page is [here](https://vios-s.github.io/adversarial-test-time-training/).  
 An online version of the paper can be found [here](https://arxiv.org/abs/2108.12280).  
 
 ## Citation:  
