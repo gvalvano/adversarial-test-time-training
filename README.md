@@ -1,5 +1,5 @@
 
-#  Stop Throwing Away Discriminators! Re-using Adversaries for Test-Time Training
+#  Stop Throwing Away Discriminators! <br>Re-using Adversaries for Test-Time Training
   
 Code for the paper:  
   
