@@ -18,13 +18,13 @@ An online version of the paper can be found [here](https://arxiv.org/abs/2108.12
 }
 ```  
   
-<img src="https://github.com/vios-s/adversarial-test-time-training/blob/main/images/banner.png" alt="mscale_pyags" width="600"/>
+<img src="https://github.com/vios-s/adversarial-test-time-training/blob/main/images/banner.png" alt="adversarial_ttt" width="800"/>
 
 ----------------------------------  
   
 ## Notes:  
 
-Work in progress...
+### Work in progress... Code will be available soon!
 
 ## Requirements
 This code was implemented using TensorFlow 1.14 and the libraries detailed in [requirements.txt](https://github.com/gvalvano/multiscale-pyag/requirements.txt).
