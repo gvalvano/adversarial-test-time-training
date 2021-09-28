@@ -24,11 +24,6 @@ import config
 import importlib
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
-# telegram bot ---
-TELEGRAM_TOKEN = '696365945:AAEZgDVuEkc7SF1iqbT0zR2YolbCvUwdfT4'  # token-id
-TELEGRAM_CHAT_ID = '171620634'  # chat-id
-# ----------------
-
 
 def parse_model_type(args):
     """ Import the correct model for the experiments """
