@@ -27,7 +27,9 @@ Once you download the [ACDC dataset](https://www.creatis.insa-lyon.fr/Challenge/
 You can also **train with custom datasets**, but you must adhere to the template required by `data_interface/interfaces/dataset_wrapper.py`, which assumes the access to the dataset is through a tensorflow dataset iterator. Moreover, you will need to modify the method `get_data()` inside `experiments/acdc/exp_gan_ttt.py`.
 
 You can **start training** following the guidelines in `run.sh`. To run the training on GPU #0 you can type in the shell: 
-```sh run.sh 0```
+```
+sh run.sh 0
+```
 where 0 is the GPU number. The training will proceed for both experiments in:
 - semi-supervised learning (Non-Identifiable Distribution Shift between train and test set), splitting the dataset in 40-20-40% of samples for train, validation and test sets (training annotations only for 25% of the training data);
 - training on 1.5T MRI scanners and testing on 3T scanners (Identifiable Distribution Shift).
