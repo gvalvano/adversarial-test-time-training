@@ -27,10 +27,9 @@ tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 def parse_model_type(args):
     """ Import the correct model for the experiments """
-    experiment_type = args.experiment_type
     experiment = args.experiment
     dataset_name = args.dataset_name
-    model = importlib.import_module('experiments_semi.{0}.{1}'.format(dataset_name, experiment)).Experiment()
+    model = importlib.import_module('experiments.{0}.{1}'.format(dataset_name, experiment)).Experiment()
     return model
 
 
