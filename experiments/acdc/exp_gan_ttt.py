@@ -68,11 +68,10 @@ class Experiment(BaseExperiment):
         # path to save checkpoints and graph
         results_dir = self.args.results_dir
         utils.safe_mkdir('{0}/results'.format(results_dir))
-        utils.safe_mkdir('{0}/results/{1}'.format(results_dir, self.args.experiment_type))
-        self.last_checkpoint_dir = '{0}/results/{1}/{2}/checkpoints/'.format(results_dir, self.args.experiment_type, self.args.dataset_name) + self.run_id + '/last_model'
-        self.checkpoint_dir = '{0}/results/{1}/{2}/checkpoints/'.format(results_dir, self.args.experiment_type, self.args.dataset_name) + self.run_id
-        self.graph_dir = '{0}/results/{1}/{2}/graphs/'.format(results_dir, self.args.experiment_type, self.args.dataset_name) + self.run_id + '/convnet'
-        self.history_log_dir = '{0}/results/{1}/{2}/history_logs/'.format(results_dir, self.args.experiment_type, self.args.dataset_name) + self.run_id
+        self.last_checkpoint_dir = '{0}/results/{1}/checkpoints/'.format(results_dir, self.args.dataset_name) + self.run_id + '/last_model'
+        self.checkpoint_dir = '{0}/results/{1}/checkpoints/'.format(results_dir, self.args.dataset_name) + self.run_id
+        self.graph_dir = '{0}/results/{1}/graphs/'.format(results_dir, self.args.dataset_name) + self.run_id + '/convnet'
+        self.history_log_dir = '{0}/results/{1}/history_logs/'.format(results_dir, self.args.dataset_name) + self.run_id
 
         # verbosity
         self.skip_step = self.args.skip_step  # frequency of batch report
