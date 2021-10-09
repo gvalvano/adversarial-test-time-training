@@ -19,6 +19,16 @@ An online version of the paper can be found [here](https://arxiv.org/abs/2108.12
 }
 ```    
 
+An extended version of the manuscript can be found [here](https://arxiv.org/abs/2108.11926), and cited as:
+```
+@article{valvano2021re,
+  title={Re-using Adversarial Mask Discriminators for Test-time Training under Distribution Shifts},
+  author={Valvano, Gabriele and Leo, Andrea and Tsaftaris, Sotirios A},
+  journal={arXiv preprint arXiv:2108.11926},
+  year={2021}
+}
+```
+
  <img src="https://github.com/vios-s/adversarial-test-time-training/blob/main/images/banner.png" alt="adversarial_ttt" width="800"/>  
   
 ----------------------------------    
