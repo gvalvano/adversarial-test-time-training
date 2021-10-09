@@ -9,10 +9,14 @@ An online version of the paper can be found [here](https://arxiv.org/abs/2108.12
   
 ## Citation: 
 ``` 
-@incollection{valvano2021selfsup,  
- title={Stop Throwing Away Discriminators! Re-using Adversaries for Test-Time Training},      
- author={Gabriele Valvano and Andrea Leo and Sotirios A. Tsaftaris},  
- year={2021}, booktitle={Domain Adaptation and Representation Transfer},}  
+@incollection{valvano2021stop,
+  title={Stop Throwing Away Discriminators! Re-using Adversaries for Test-Time Training},
+  author={Valvano, Gabriele and Leo, Andrea and Tsaftaris, Sotirios A},
+  booktitle={Domain Adaptation and Representation Transfer, and Affordable Healthcare and AI for Resource Diverse Global Health},
+  pages={68--78},
+  year={2021},
+  publisher={Springer}
+}
 ```    
 
  <img src="https://github.com/vios-s/adversarial-test-time-training/blob/main/images/banner.png" alt="adversarial_ttt" width="800"/>  
